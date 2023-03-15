@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Exer01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		float salário;
 		float abono;

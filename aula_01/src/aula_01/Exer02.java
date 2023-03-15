@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Exer02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		float nota1, nota2, nota3, nota4, media;
 		
@@ -22,8 +21,15 @@ public class Exer02 {
 		System.out.println("Digite a quarta nota:");
 		nota4 = leia.nextFloat();
 		
-		System.out.println("media: \n" + df.format (nota1 + nota2 + nota3 + nota4 /4));
+		media = (nota1 + nota2 + nota3 + nota4)/4;
+		
+		System.out.println("A média é: " + df.format(media));
+				
+		leia.close();
 		
 	}
 
-}
+	
+	}
+
+
