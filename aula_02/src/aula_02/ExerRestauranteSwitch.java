@@ -4,7 +4,7 @@ package aula_02;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class ExerABC {
+public class ExerRestauranteSwitch {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
