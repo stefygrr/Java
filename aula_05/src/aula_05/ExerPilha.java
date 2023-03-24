@@ -59,7 +59,9 @@ Stack<String> pilhaLivros = new Stack<String>();
 			
 		} while (opcao != 0);
 		System.out.println("Programa finalizado! ");
+	
 	}
-		
+	
+	
 }
 
