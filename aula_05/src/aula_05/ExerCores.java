@@ -15,9 +15,7 @@ public class ExerCores {
 			System.out.println("Digite uma cor: ");
 			cores.add(leia.next());
 		}
-<<<<<<< HEAD
-=======
-		
+
 		System.out.println(cores);
 		System.out.println();
 		Collections.sort(cores);
@@ -25,16 +23,6 @@ public class ExerCores {
 		
 
 	}
-
-}
->>>>>>> 7b34d719be15e4623f960c074f23696df6610e24
-		
-		System.out.println(cores);
-		System.out.println();
-		Collections.sort(cores);
-		System.out.println(cores);
 		
 
 	}
-
-}
