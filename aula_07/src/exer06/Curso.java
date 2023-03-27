@@ -1,4 +1,4 @@
-package exer06e01;
+package exer06;
 
 import java.time.LocalDate;
 
@@ -59,5 +59,18 @@ public class Curso {
 		this.notaMec = notaMec;
 	}
 	
+	public void visualizar() {
+		
+		System.out.println("****************************************");
+	    System.out.println("         DADOS DO CURSO                 ");
+	    System.out.println("****************************************");
+	    System.out.println("Nome do curso: "+ this.nomeCurso);
+	    System.out.println("Quantidade de Disciplinas: " + this.quantidadeDisciplinas );
+	    System.out.println("Data mensal da Prova: "+ dataProvaMes);
+	    System.out.println("Quantidade de Alunos: "+ this.quantidadeAlunos);
+	    System.out.println("Nota do Mec referente ao curso: " +  this.notaMec);
+	}
+		
+
 }
 	
