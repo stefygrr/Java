@@ -17,31 +17,12 @@ public class Menu {
 		String titular;
 		float saldo, limite, valor;
 
-
-		// teste da Classe Conta
-		Conta c1 = new Conta(1, 123, 1, "Adriana", 10000.0f);
-		c1.visualizar();
-		c1.sacar(12000.0f);
-		c1.visualizar();
-		c1.depositar(5000.0f);
-		c1.visualizar();
-
-		// teste da CLasse Conta Corrente
-		ContaCorrente cc1 = new ContaCorrente(2, 123, 1, "Mariana", 15000.0f, 1000.0f);
-		cc1.visualizar();
-		cc1.sacar(12000.0f);
-		cc1.visualizar();
-		cc1.depositar(5000.0f);
-		cc1.visualizar();
-
-		// teste da Classe Conta Poupança
-		ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Victor", 100000.0f, 15);
-		cp1.visualizar();
-		cp1.sacar(1000.0f);
-		cp1.visualizar();
-		cp1.depositar(5000.0f);
-		cp1.visualizar();
-
+		ContaCorrente cc1 = new ContaCorrente(2, 123, 1, "Gabriel Machado", 100000.00f, 1000.00f);
+			cc1.visualizar();
+			
+		ContaPoupanca cp1 = new ContaPoupanca(1, 123, 2, "Janiffer Souza", 100000.00f, 28);
+		 cp1.visualizar();
+		 
 		while (true) {
 
 			System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.ANSI_BLACK_BACKGROUND
