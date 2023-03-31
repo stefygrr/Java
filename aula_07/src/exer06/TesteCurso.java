@@ -19,7 +19,6 @@ public class TesteCurso {
 		Curso c2 = new Curso("Odontologia", 8, ldc2, 45, 5);
 		
 		c2.visualizar();
-		
 		System.out.println();
 	}
 
