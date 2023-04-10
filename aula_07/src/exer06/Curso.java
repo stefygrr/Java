@@ -8,15 +8,18 @@ public class Curso {
 	private int quantidadeDisciplinas;
 	private LocalDate dataProvaMes;
 	private int quantidadeAlunos;  
-	private double notaMec;
+	private String duracao;
 	
+	
+	
+
 	public Curso(String nomeCurso, int quantidadeDisciplinas, LocalDate dataProvaMes, int quantidadeAlunos,
-			double notaMec) {
+			String duracao) {
 		this.nomeCurso = nomeCurso;
 		this.quantidadeDisciplinas = quantidadeDisciplinas;
 		this.dataProvaMes = dataProvaMes;
 		this.quantidadeAlunos = quantidadeAlunos;
-		this.notaMec = notaMec;
+		this.duracao = duracao;
 	}
 
 	public String getNomeCurso() {
@@ -50,15 +53,17 @@ public class Curso {
 	public void setQuantidadeAlunos(int quantidadeAlunos) {
 		this.quantidadeAlunos = quantidadeAlunos;
 	}
-
-	public double getNotaMec() {
-		return notaMec;
-	}
-
-	public void setNotaMec(double notaMec) {
-		this.notaMec = notaMec;
-	}
 	
+	
+	
+	public String getDuracao() {
+		return duracao;
+	}
+
+	public void setDuracao(String duracao) {
+		this.duracao = duracao;
+	}
+
 	public void visualizar() {
 		
 		System.out.println("****************************************");
@@ -68,7 +73,8 @@ public class Curso {
 	    System.out.println("Quantidade de Disciplinas: " + this.quantidadeDisciplinas );
 	    System.out.println("Data mensal da Prova: "+ dataProvaMes);
 	    System.out.println("Quantidade de Alunos: "+ this.quantidadeAlunos);
-	    System.out.println("Nota do Mec referente ao curso: " +  this.notaMec);
+	    System.out.println("Duração do curso: "+ this.duracao);
+	    
 	}
 		
 
